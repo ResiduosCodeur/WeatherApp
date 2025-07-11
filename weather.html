@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles_wa.css">
+</head>
+
+<body>
+    <div class="div1" style="text-align: center;margin-top: -57px;">
+        <p style="text-align: center;font-size: 50px;color: rgb(66,99,95);font-family: ABeeZee, sans-serif;margin-top: 94px;">Weather App</p>
+    </div>
+    <div style="height: 1000px;text-align: center;">
+        <div class="container" style="height: 777px;width: 729px;background: linear-gradient(135deg, #6e61ff 0%, rgb(0,181,159) 65%, rgb(0,255,224) 99%, #092ded 100%), #bb6363;border-radius: 43px;text-align: center;"><input type="text" id="search" class="ms-sm-0 ps-sm-4" style="background: var(--bs-body-bg);border-radius: 98px;width: 288px;height: 52px;margin-top: 64px;border-width: 0px;border-color: rgb(170,141,141);text-align: left;font-family: ABeeZee, sans-serif;font-size: 24px;padding-left: 0px;margin-left: -22px;" placeholder="enter city name"><button class="btn btn-primary" id="search_button" type="button" style="background: url(&quot;assets/img/search.jpeg&quot;) center / cover, url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;), var(--bs-body-bg);width: 55px;height: 55px;border-radius: 63px;margin-left: 35px;margin-top: -6px;"></button>
+            <div class="error" style="width: 261px;height: 32px;text-align: center;margin-top: 15px;margin-left: 180px;">
+                <p style="color: rgb(255,15,0);">Invalid City Name</p>
+            </div>
+            <div class="weather" style="height: 500px;margin-top: 13px;"><img class="weather-icon" src="assets/img/rain.png">
+                <h1 class="temp" style="font-family: ABeeZee, sans-serif;text-align: center;font-weight: bold;border-color: transparent;color: var(--bs-body-bg);width: 696px;height: 71.375px;font-size: 45px;margin-top: 0px;"><br><span style="color: rgb(232, 234, 237);">22</span><span style="font-weight: normal !important; color: rgb(232, 234, 237); background-color: rgba(31, 31, 31, 0);">°C</span><br><span style="font-weight: normal !important; color: rgb(232, 234, 237); background-color: rgba(31, 31, 31, 0);">°C</span><br><br><br><br></h1>
+                <h2 class="city" style="color: var(--bs-body-bg);font-family: ABeeZee, sans-serif;font-weight: bold;text-align: center;font-size: 35px;">New York</h2>
+                <div class="details" style="display: flex;text-align: center;margin-top: 53px;">
+                    <div class="col" style="width: 345px;"><img src="assets/img/humidity.png">
+                        <div>
+                            <p class="humidity" style="font-size: 28px;color: var(--bs-body-bg);margin-top: 5px;font-family: ABeeZee, sans-serif;">50%</p>
+                            <p style="color: var(--bs-body-bg);font-size: 20px;margin-top: -22px;font-family: ABeeZee, sans-serif;">Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col" style="width: 345px;"><img src="assets/img/wind.png" style="margin-top: -8px;">
+                        <div>
+                            <p class="wind" style="color: var(--bs-body-bg);font-size: 28px;font-family: ABeeZee, sans-serif;">15 Km/hr</p>
+                            <p style="color: var(--bs-body-bg);font-size: 20px;margin-top: -19px;font-family: ABeeZee, sans-serif;">Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/weather_app.js"></script>
+</body>
+
+</html>
